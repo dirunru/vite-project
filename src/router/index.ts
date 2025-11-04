@@ -17,6 +17,11 @@ const router=createRouter({
             path:'/table',
             name:'table',
             component:()=>import ('@/views/table/index.vue')
+        },
+        {
+            path:'/selectTags',
+            name:'selectTags',
+            component:()=>import ('@/views/selectTags/index.vue')
         }
     ]
 })
